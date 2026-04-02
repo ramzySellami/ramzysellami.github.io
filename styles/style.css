@@ -44,6 +44,17 @@ div#my-skills-container{
 }
 
 
+#myprojects ~ul{
+    margin-left: 30%;
+}
+
+
+
+
+
+
+
+
 #social-links{
     display: flex;
     justify-content: center;
