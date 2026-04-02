@@ -1,0 +1,64 @@
+body{
+    background-color: blanchedalmond;
+}
+header ul{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+}
+header ul li{
+    color: white;
+    background-color: rgb(94, 1, 182);
+    border-radius: 50%;
+    width: 150px;
+    height: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;    
+     
+}
+header ul li a{
+    color: white;
+    
+}
+h1{
+    text-align: center;
+}
+#whoami ~ p{
+    text-align: center;
+}
+
+
+
+ main section:nth-child(2){
+    background-color: rgb(222, 215, 137);
+    margin-left: 15%;
+    margin-right: 15%;
+    border-radius: 0%;
+    padding: 40px;
+    border-radius: 50%;
+} 
+div#my-skills-container{
+    margin: 15%
+}
+
+
+#social-links{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    list-style: none; 
+}
+
+#social-links li a img{
+    display: block; 
+    width: 100px; 
+    height: 100px;
+    border-radius: 20%;
+    object-fit: cover;
+    background-color: black;
+}
+#social-links img:hover{
+    transform: scale(1.1);
+}
